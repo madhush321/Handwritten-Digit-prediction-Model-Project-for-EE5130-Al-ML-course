@@ -5,7 +5,7 @@ import streamlit as st
 
 # Suppress oneDNN warnings
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-from tensorflow import keras
+import keras
 
 # --- UI CONFIGURATION ---
 st.set_page_config(
